@@ -12,7 +12,7 @@
 // function sommeTroisNombres(a, b, c) {
 //     let somme;
 //     somme = a + b + c;
-//     return somme;   
+//     return somme;
 // }
 // console.log(sommeTroisNombres(5, 10, 15));
 
@@ -23,21 +23,20 @@
 //     sec = heures*3600;
 //     return sec;
 // }
-// console.log(heuresEnSecondes(2)); 
+// console.log(heuresEnSecondes(2));
 
+//Exo4
 
-//Exo4 
-
-    // function peutVoter(age, nationalite) {
-    //     if (age >= 18 && nationalite === "française") {
-    //         return "Eligible";
-    //     } else {
-    //         return "Non éligible";
-    //     }
-    // }
-    // console.log(peutVoter(20, "française")); 
-    // console.log(peutVoter(16, "française")); 
-    // console.log(peutVoter(20, "espagnole"));
+// function peutVoter(age, nationalite) {
+//     if (age >= 18 && nationalite === "française") {
+//         return "Eligible";
+//     } else {
+//         return "Non éligible";
+//     }
+// }
+// console.log(peutVoter(20, "française"));
+// console.log(peutVoter(16, "française"));
+// console.log(peutVoter(20, "espagnole"));
 
 //Exo5
 
@@ -50,6 +49,16 @@
 //         return "Plein tarif"
 //     }
 //   }
-//   console.log(tarif(3)); 
-//   console.log(tarif(15)); 
+//   console.log(tarif(3));
+//   console.log(tarif(15));
 //   console.log(tarif(25));
+
+//Exo4 avec le prompt
+// let age = Number(prompt("Donne ton age!"))
+// let nationalite = prompt("Donne ta nationalité!")
+
+// if (age >= 18 && nationalite === "française") {
+// 	console.log("Eligible");
+// } else {
+// 	console.log("Non éligible");
+// }
