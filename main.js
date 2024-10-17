@@ -62,3 +62,28 @@
 // } else {
 // 	console.log("Non éligible");
 // }
+
+//exo6
+// let  i = 0
+
+// while (i < 1001) {
+//     if (i % 2 === 0 || i % 10 === 0) {
+//         console.log(i)
+//     }
+//     i++;
+// }
+
+//Exo7
+
+// let i = 0;
+// let phrase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+// console.log(phrase.split("").reverse().join(""));
+
+//Exo8
+
+// let n = Number(prompt("Demander un nombre"));
+// n = 2 ** n;
+// if (n >= 2 ** 8 && n <= 2 ** 10) {
+// 	console.log(n);
+// }
